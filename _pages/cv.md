@@ -75,9 +75,9 @@ redirect_from:
 - [Top prize] 환경·안전·보건 분야에서의 AI 활용 아이디어 공모전 (2025, (재)숲과나눔 & 한겨레신문)
   - Safori, 음성으로 AI가 고립 위기 상황의 감정을 분석해 구조를 돕는 시스템
 - [Excellence prize] SICON 2025 (2025, 인하대학교 인공지능학회 SINSA)
-  - Safori, 음성으로 AI가 고립 위기 상황의 감정을 분석해 구조를 돕는 시스템
+  - Premise 문장을 참고해 Hypothesis 문장이 참, 거짓, 판단 불가를 판별할 수 있는 AI모델 성능 최적화
 - 2024, SQLD
-- [Excellence prize] UMC 6th Demonday (2024, UMC) 
+- [Excellence prize] UMC 6th Demo-day (2024, UMC) 
   - Dev-Crew, IT 프로젝트를 준비하는 우리를 위한 공간
 
 
@@ -102,6 +102,6 @@ redirect_from:
 
 - College of Social Sciences, INHA University (2021.03 - 2022.02)
   - Preparatory Committee Member for the Freshman Orientation (2022.01 - 2022.02)
-  - Vice Chairman/Chairperson of the Emergency Committee (2021.09 - 2021.10)
+  - Vice Chairman of the Emergency Committee (2021.09 - 2021.10)
   - Delegate (2021.03 - 2021.09)
 
