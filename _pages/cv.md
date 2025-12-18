@@ -37,7 +37,6 @@ redirect_from:
   - Node.js
 
 ---
-
 # Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -60,12 +59,12 @@ redirect_from:
 ---
 
 # Awards & Qualification
-- [Top prize] 환경·안전·보건 분야에서의 AI 활용 아이디어 공모전 (2025, (재)숲과나눔 & 한겨레신문)
+- [🏆Top prize] 환경·안전·보건 분야에서의 AI 활용 아이디어 공모전 (2025, 숲과나눔 & 한겨레신문)
   - Safori, 음성으로 AI가 고립 위기 상황의 감정을 분석해 구조를 돕는 시스템
-- [Excellence prize] SICON 2025 (2025, 인하대학교 인공지능학회 SINSA)
+- [🏆Excellence prize] SICON 2025 (2025, 인하대학교 인공지능학회 SINSA)
   - Premise 문장을 참고해 Hypothesis 문장이 참, 거짓, 판단 불가를 판별할 수 있는 AI모델 성능 최적화
-- 2024, SQLD
-- [Excellence prize] UMC 6th Demo-day (2024, UMC) 
+- 🪪 SQLD (2024)
+- [🏆Excellence prize] UMC 6th Demo-day (2024, UMC) 
   - Dev-Crew, IT 프로젝트를 준비하는 우리를 위한 공간
 
 
