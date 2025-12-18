@@ -20,22 +20,10 @@ redirect_from:
 
 # Work experience
 
-<!-- - Spring 2024: Academic Pages Collaborator
-
-  - GitHub University
-  - Duties includes: Updates and improvements to template
-  - Supervisor: The Users
-
-- Fall 2015: Research Assistant
-
-  - GitHub University
-  - Duties included: Merging pull requests
-  - Supervisor: Professor Hub
-
-- Summer 2015: Research Assistant
-  - GitHub University
-  - Duties included: Tagging issues
-  - Supervisor: Professor Git -->
+- IT Infra Team, INHA University (2024.03 - 2024.08. 2025.03 - )
+  - University-funded work-study (2025.03 - ) & National Work-Study Program (2024.03 - 2024.08)
+  - Duties include: Research lab PC repair & PC lab PC management
+  - Supervisor: IT Infra Team Staff
 
 ---
 
@@ -87,10 +75,6 @@ redirect_from:
 # Activity
 - Safori (2024.09 - )
   - Product Manager (2024.09 - )
-
-- IT Infra Team, INHA University (2024.03 - 2024.08. 2025.03 - )
-  - University-funded work-study (2025.03 - )
-  - National Work-Study Program (2024.03 - 2024.08)
 
 - UMC Club (University MakeUs Challenge 6-8th, 2024.03 - 2025.08)
   - Chapter Head of Deneb (2025.03 - 2025.08)
