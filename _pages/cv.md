@@ -72,11 +72,13 @@ redirect_from:
 ---
 
 # Awards & Qualification
-- <bold>2025 (재)숲과나눔 & 한겨레신문, 환경·안전·보건 분야에서의 AI 활용 아이디어 공모전 Top prize</bold>
-  - <bold>Safori, 음성으로 AI가 고립 위기 상황의 감정을 분석해 구조를 돕는 시스템</bold>
-- <bold>2024, SQLD (SQL 개발자)</bold>
-- <bold>2024 UMC, UMC 6th Demonday Excellence prize</bold>
-  - <bold>Dev-Crew, IT 프로젝트를 준비하는 우리를 위한 공간</bold>
+- [Top prize] 환경·안전·보건 분야에서의 AI 활용 아이디어 공모전 (2025, (재)숲과나눔 & 한겨레신문)
+  - Safori, 음성으로 AI가 고립 위기 상황의 감정을 분석해 구조를 돕는 시스템
+- [Excellence prize] SICON 2025 (2025, 인하대학교 인공지능학회 SINSA)
+  - Safori, 음성으로 AI가 고립 위기 상황의 감정을 분석해 구조를 돕는 시스템
+- 2024, SQLD
+- [Excellence prize] UMC 6th Demonday (2024, UMC) 
+  - Dev-Crew, IT 프로젝트를 준비하는 우리를 위한 공간
 
 
 
@@ -86,13 +88,12 @@ redirect_from:
 - Safori (2024.09 - )
   - Product Manager (2024.09 - )
 
-- IT infra Team, INHA University (2024.03 - 2024.08. 2025.03 - )
+- IT Infra Team, INHA University (2024.03 - 2024.08. 2025.03 - )
   - University-funded work-study (2025.03 - )
   - National Work-Study Program (2024.03 - 2024.08)
 
-- UMC Club (University MakeUs Challenge 6th ~ 8th, 2024.03 - 2025.08)
+- UMC Club (University MakeUs Challenge 6-8th, 2024.03 - 2025.08)
   - Chapter Head of Deneb (2025.03 - 2025.08)
-    - Affiliation: Inha, Hongik, Sangmyung, Sookmyung Women's
   - President of Inha UMC (2025.03 - 2025.08)
   - Back-end Lead Developer (Team: Sweepic, 2024.12 - 2025.02)
   - Server Challenger (Node.js, 2024.09 - 2024.12)
