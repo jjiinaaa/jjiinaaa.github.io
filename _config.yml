@@ -26,23 +26,22 @@ author:
   # Biographic information
   avatar: "profile.jpg"
   name: "Jin-Ha Park"
-  pronouns: "he/him"
-  bio: "Short biography for the left-hand sidebar"
+  bio: "Financial AI Researcher"
   location: "Incheon, South Korea"
   employer: "INHA University"
   uri: # URL
-  email: "qka0103@inha.edu"
+  email: qka0103@inha.edu
 
   # Academic websites
   academia: # URL
   arxiv: # URL - Update with the correct link to your profile
-  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  # googlescholar: # https://scholar.google.com/citations?user=PS_CX0AAAAAJ
   inspire-hep: # URL
   impactstory: # URL
-  orcid: "https://orcid.org/yourorcidurl"
+  # orcid: "https://orcid.org/yourorcidurl"
   semantic: # URL
   ssrn: # URL
-  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate: # URL
   scopus: # URL
   zotero: # URL
@@ -57,16 +56,16 @@ author:
 
   # Social media
   artstation: # Username
-  bluesky: "bsky.app" # Replace this with you Bluesky username
+  # bluesky: "bsky.app" # Replace this with you Bluesky username
   facebook: # Username
   flickr: # Username
   foursquare: # Username
   goodreads: # Username
   google_plus: # Username
   keybase: # Username
-  instagram: # Username
+  instagram: "jjii_naaa_02"
   lastfm: # Username
-  linkedin: "https://www.linkedin.com/in/park-jin-ha-098442326/"
+  linkedin: "park-jin-ha-098442326/"
   mastodon: # URL
   medium: # URL
   pinterest: # Username
