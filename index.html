@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jinha Park</title>
+<meta name="description" content="Jinha Park — B.S. in Computer Engineering and B.Econ. in Economics, Inha University. Interests: Graph Theory, Portfolio Optimization.">
+<meta property="og:title" content="Jinha Park">
+<meta property="og:description" content="B.S. in Computer Engineering and B.Econ. in Economics, Inha University. Interests: Graph Theory, Portfolio Optimization.">
+<meta property="og:type" content="profile">
+
+<style>
+:root{
+  --paper:#FCFCFA;
+  --ink:#16181B;
+  --muted:#5F656C;
+  --rule:#E4E2DB;
+  --accent:#2C5F6F;
+  --accent-soft:#A6C1C8;
+  --serif:"Palatino Linotype","Book Antiqua",Palatino,"URW Palladio L","Iowan Old Style",Georgia,serif;
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#14161A;
+    --ink:#E8E7E2;
+    --muted:#9AA0A7;
+    --rule:#2C3036;
+    --accent:#7FB6C4;
+    --accent-soft:#3E5E68;
+  }
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif);
+  font-size:17px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+
+.page{max-width:56rem;margin:0 auto;padding:4.5rem 1.75rem 6rem}
+
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent-soft)}
+a:hover{border-bottom-color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+/* ---------- masthead ---------- */
+
+.masthead{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:2.5rem;
+  align-items:start;
+  padding-bottom:2.75rem;
+  border-bottom:1px solid var(--rule);
+}
+
+h1{font-size:2.9rem;font-weight:400;line-height:1.1;letter-spacing:-0.015em;margin:0 0 .6rem}
+
+.standfirst{margin:0;max-width:38ch;font-size:1.02rem;line-height:1.55}
+.standfirst span{display:block}
+
+.origin{margin:.7rem 0 0;color:var(--muted);font-size:.9rem}
+
+.links{
+  list-style:none;display:flex;flex-wrap:wrap;gap:1.15rem;
+  margin:1.35rem 0 0;padding:0;font-size:.94rem;
+}
+
+.portrait{
+  width:150px;height:190px;object-fit:cover;
+  border:1px solid var(--rule);border-radius:2px;
+}
+
+/* ---------- sections ---------- */
+
+section{
+  display:grid;
+  grid-template-columns:10rem 1fr;
+  gap:2.25rem;
+  padding:2.5rem 0;
+  border-bottom:1px solid var(--rule);
+}
+section:last-of-type{border-bottom:0}
+
+h2{margin:.25rem 0 0;font-size:.95rem;font-weight:400;color:var(--muted);letter-spacing:.01em}
+
+.body > p{margin:0 0 1rem;max-width:64ch}
+.body > p:last-child{margin-bottom:0}
+
+/* ---------- entries ---------- */
+
+.entry{margin-bottom:1.9rem;max-width:64ch}
+.entry:last-child{margin-bottom:0}
+
+.entry-head{display:flex;justify-content:space-between;align-items:baseline;gap:1.25rem}
+.entry h3{margin:0;font-size:1.06rem;font-weight:400;line-height:1.35}
+
+.when{flex:none;color:var(--muted);font-size:.88rem;white-space:nowrap}
+.where{margin:.15rem 0 .4rem;color:var(--muted);font-size:.92rem}
+.entry p{margin:0}
+.entry p + p{margin-top:.4rem}
+
+.tag{
+  display:inline-block;margin-left:.5rem;padding:.05rem .45rem;
+  border:1px solid var(--accent-soft);border-radius:2px;
+  color:var(--accent);font-size:.76rem;vertical-align:.12em;
+}
+
+/* ---------- skills ---------- */
+
+.skills{margin:0}
+.skills dt{color:var(--muted);font-size:.9rem;margin-bottom:.15rem}
+.skills dd{margin:0 0 .95rem}
+.skills dd:last-child{margin-bottom:0}
+
+/* ---------- awards ---------- */
+
+.awards{list-style:none;margin:0;padding:0}
+.awards li{margin-bottom:1.15rem;max-width:64ch}
+.awards li:last-child{margin-bottom:0}
+.awards .note{color:var(--muted);font-size:.92rem}
+
+footer{
+  margin-top:3.5rem;padding-top:1.5rem;
+  border-top:1px solid var(--rule);
+  color:var(--muted);font-size:.86rem;
+}
+
+/* ---------- mobile ---------- */
+
+@media (max-width:44rem){
+  body{font-size:16px}
+  .page{padding:2.75rem 1.25rem 4rem}
+  h1{font-size:2.25rem}
+  .masthead{grid-template-columns:1fr;gap:1.75rem}
+  .portrait{width:130px;height:165px}
+  section{grid-template-columns:1fr;gap:.85rem;padding:2rem 0}
+  h2{margin:0}
+  .entry-head{flex-direction:column;gap:.1rem}
+  .when{order:-1}
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div>
+      <h1>Jinha Park</h1>
+      <p class="standfirst">
+        <span>B.S. in Computer Engineering &amp; B.Econ. in Economics, Inha University</span>
+        <span>Interests: Graph Theory, Portfolio Optimization</span>
+      </p>
+      <p class="origin">Military service completed (Sergeant) &nbsp;·&nbsp; Incheon, Republic of Korea</p>
+      <ul class="links">
+        <li><a href="https://accidental-timpani-ccf.notion.site/18810e16ffc14b52abb86477a78aad2c?source=copy_link">Portfolio</a></li>
+        <li><a href="mailto:qka0103@inha.edu">qka0103@inha.edu</a></li>
+        <li><a href="https://github.com/jjiinaaa">GitHub</a></li>
+        <li><a href="cv.pdf">CV (PDF)</a></li>
+      </ul>
+    </div>
+    <img class="portrait" src="profile.jpg" alt="Jinha Park">
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <div class="body">
+      <p>
+        As an undergraduate student majoring in computer engineering and double
+        majoring in economics, I am interested in problems where combinatorial
+        structures meet financial decision-making. I am currently studying graph
+        theory under the guidance of Professor Jungho Ahn. In addition, I present
+        at a paper review seminar with the research team of my university's
+        quantitative finance club, where I have been working through the
+        information filtering network literature in sequence, from PMFG to more
+        recent decision-focused approaches. Along with this, I am reading
+        <em>Active Portfolio Management</em> chapter by chapter and presenting it
+        to the group members.
+      </p>
+      <p>
+        My coursework projects have followed the same interest. These include
+        redefining a given classification task to remove target leakage, and
+        formulating retirement asset liquidation as a constrained
+        cost-minimization problem.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="body">
+      <div class="entry">
+        <div class="entry-head">
+          <h3>B.S. in Computer Engineering, B.Econ. in Economics</h3>
+          <span class="when">Mar. 2021 – Feb. 2027 (expected)</span>
+        </div>
+        <p class="where">Inha University, Incheon, Republic of Korea</p>
+        <p>CGPA: 4.11/4.5 (CE: 4.09/4.5, Econ: 4.33/4.5)</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="body">
+      <dl class="skills">
+        <dt>Languages</dt>
+        <dd>C++, Python, Java, JavaScript, TypeScript, SQL, HTML/CSS</dd>
+        <dt>Frameworks &amp; Libraries</dt>
+        <dd>React, React Native, Node.js</dd>
+        <dt>Tools &amp; Technologies</dt>
+        <dd>Git, Github, LaTeX</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research Experience</h2>
+    <div class="body">
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Research Team Lead</h3>
+          <span class="when">2026.07 – Present</span>
+        </div>
+        <p class="where">Quantitative Finance Club, Inha University &nbsp;·&nbsp; Incheon</p>
+        <p>
+          Organize and present paper seminars on AI in finance and portfolio theory,
+          covering the information filtering network literature and
+          <em>Active Portfolio Management</em> (Grinold &amp; Kahn)
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Undergraduate Researcher</h3>
+          <span class="when">2026.01 – Present</span>
+        </div>
+        <p class="where">Combinatorial Algorithms Lab, Inha University &nbsp;·&nbsp; Advised by Prof. Jungho Ahn</p>
+        <p>
+          Learning graph theory through systematic reading of
+          <em>A Beginner's Guide to Graph Theory</em> (Wallis), with regular lab
+          meetings for problem sessions
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="body">
+      <div class="entry">
+        <h3>Safori — Voice-based Emotional Care Service for Seniors<a class="tag" href="https://www.hani.co.kr/arti/society/environment/1228956.html#ace04ou">News Coverage</a></h3>
+        <p>
+          A mobile service that lets older adults record their day by voice and
+          reflect on emotional changes over time. Served as PM/PO for a five-person
+          team; selected for field validation through the Global Piuda Project.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3>High-Savings Customer Classification</h3>
+        <p class="where">Machine Learning Term Project I &amp; II</p>
+        <p>
+          Predicting whether a bank customer is likely to hold above-median savings,
+          using only profile attributes. Redefined the task from the churn label
+          originally attached to the dataset.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3>Smart Cash-Flow Optimizer — Asset Liquidation Decision Model for Retirees</h3>
+        <p class="where">Hanwha Life Solution Competition</p>
+        <p>
+          A decision-support model that recommends how retirees should convert
+          illiquid assets into cash, balancing living expenses against the value
+          left for inheritance.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3>Sweepic — Photo Decluttering Service with Habit Gamification</h3>
+        <p class="where">UMC 7th Project</p>
+        <p>
+          A mobile service that helps users free up storage by reviewing and sorting
+          photos in their local gallery, framing decluttering as a game through
+          goal-setting and progress metrics. Built the backend architecture.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3>Crypto Portfolio Manager — Portfolio Simulation Application</h3>
+        <p class="where">Java Application Programming Term Project</p>
+        <p>
+          A desktop application for simulating cryptocurrency investment, covering
+          trade execution, return calculation, and transaction history under live
+          price movement.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3>Traffic Accidents in School Zones: Problems and Solutions</h3>
+        <p class="where">Secondary School Research Project (Grade 12)</p>
+        <p>
+          An administrative and legal analysis of why child traffic accidents persist
+          in designated school zones, proposing revisions to the relevant statute and
+          its sentencing range.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Significant Roles</h2>
+    <div class="body">
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Vice President, Quantitative Finance Club</h3>
+          <span class="when">2026.07 – Present</span>
+        </div>
+        <p class="where">Quantitative Finance Group, Inha University &nbsp;·&nbsp; Incheon</p>
+        <p>Oversee the club's academic direction and research team operations</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>President, Inha Chapter, IT Venture Startup Club</h3>
+          <span class="when">2025.02 – 2025.08</span>
+        </div>
+        <p class="where">University Makeus Challenge (UMC), 8th Generation &nbsp;·&nbsp; Seoul/Incheon</p>
+        <p>
+          Led the Inha chapter and the four-university joint chapter (Inha, Sookmyung,
+          Sangmyung, Hongik), organizing technical workshops and project events
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Student Representative, College of Social Sciences</h3>
+          <span class="when">2021.03 – 2022.02</span>
+        </div>
+        <p class="where">Inha University &nbsp;·&nbsp; Incheon</p>
+        <p>
+          Served on the college assembly and emergency committee, reviewing the
+          college budget and organizing departmental events
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="body">
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Senior Work-Study Student, IT Infrastructure Team</h3>
+          <span class="when">2024.03 – Present</span>
+        </div>
+        <p class="where">Office of Information &amp; Communication, Inha University &nbsp;·&nbsp; Incheon</p>
+        <p>
+          Automate standardized PC deployment across campus computer labs and manage
+          network and security configuration, while supervising and training the
+          work-study staff
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Honors &amp; Awards</h2>
+    <div class="body">
+      <ul class="awards">
+        <li>
+          Woonhae Scholar, 13th Generation &nbsp;<span class="note">2026</span><br>
+          <span class="note">
+            Woonhae Scholarship Foundation (8,000,000 KRW, awarded for academic
+            excellence and research potential in science and engineering)
+          </span>
+        </li>
+        <li>
+          First Prize, AI Application Idea Competition in Environment, Safety, and Health
+          &nbsp;<span class="note">2025</span><br>
+          <span class="note">
+            Hosted by The Hankyoreh &amp; Korea SHE Foundation (<em>Safori</em> project)
+          </span>
+        </li>
+        <li>
+          Second Prize, UMC 6th Demo Day &nbsp;<span class="note">2024</span><br>
+          <span class="note">
+            Frontend development of a developer community platform (<em>Dev-Crew</em>)
+          </span>
+        </li>
+        <li>
+          Grand Prize, Daein Academia Research Paper Competition &nbsp;<span class="note">2020</span><br>
+          <span class="note">
+            Secondary school research competition (<em>School Zone Traffic Safety</em> project)
+          </span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>References</h2>
+    <div class="body">
+      <div class="entry">
+        <h3>Jungho Ahn</h3>
+        <p class="where">
+          Assistant Professor, Department of Computer Engineering, Inha University
+          &nbsp;·&nbsp; <a href="mailto:junghoahn@inha.ac.kr">junghoahn@inha.ac.kr</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Last updated September 2026.
+  </footer>
+
+</div>
+</body>
+</html>
